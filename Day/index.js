@@ -7,6 +7,7 @@ const port = 3000;
 const d = new Date();
 const day = d.getDay();
 
+app.set('view engine', 'ejs');
 var advice;
 var dayType;
 if (day == 6 || day == 0) {
